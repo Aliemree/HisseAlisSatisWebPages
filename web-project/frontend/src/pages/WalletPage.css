@@ -1,0 +1,65 @@
+/* Container alanı */
+.wallet-container {
+    padding: 20px;
+  }
+  
+  /* Hata mesajları */
+  .error-message {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  /* Form alanı */
+  .form-add-wallet {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Form alanlar */
+  .form-field {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-field label {
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+  
+  .input-field {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Buton */
+  .btn-submit {
+    padding: 8px 16px;
+    background-color: #7a5fc0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #6b53aa;
+  }
+  
+  /* Wallet listesi */
+  .wallet-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .wallet-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
